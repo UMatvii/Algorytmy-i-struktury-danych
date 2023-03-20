@@ -1,13 +1,8 @@
-N = int(input("Podaj liczbę N: "))
-x = int(input("Podaj liczbę wyszukiwaną: "))
-L = [int(input("Podaj liczbę: ")) for i in range(N)]
-l = 0
-while l < N:
-    if L[l]==x:
-        print("Liczba wyszukiwana występuje w liście")
-        break
-    else:
-        l += 1
-        continue
-else:
-    print("Liczba wyszukiwana nie występuje w liście")
+n = int(input("Podaj liczbę n: "))
+L = [int(input("Podaj liczbę: ")) for i in range(n)]
+i = 0
+min = L[1]
+while i < n:
+    if L[i] < min:
+        min = i
+print(min)
