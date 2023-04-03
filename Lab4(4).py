@@ -17,4 +17,3 @@ for i in range(a):
     table.append(calk)
 
 print(suma(table, a))
-print("Максим вибач будь ласка")
