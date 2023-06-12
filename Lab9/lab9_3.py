@@ -4,8 +4,8 @@ from Vertex_Graph import *
 def create_graph():
     g = Graph()
 
-    num_vertices = int(input("Podaj ilość wierzchołków: "))
-    for i in range(num_vertices):
+    num_vertex = int(input("Podaj ilość wierzchołków: "))
+    for i in range(num_vertex):
         key = input("Podaj identyfikatory wierzchołków: ")
         g.addVertex(key)
 
