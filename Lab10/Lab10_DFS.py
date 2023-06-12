@@ -26,4 +26,4 @@ def dfs_explore(vertex, czas):
     czas += 1
     vertex.time_2 = czas
 
-    return czas
+    return czas     
